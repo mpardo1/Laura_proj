@@ -91,13 +91,13 @@ plot_dist <- function(date_ref, name_plot){
 }
 
 
-date <- "2021-06-15"
+date <- "2021-06-30"
 Jun_plot <- plot_dist(date, "June")
-date <- "2021-07-15"
+date <- "2021-07-30"
 Jul_plot <- plot_dist(date, "July")
-date <- "2021-08-15"
+date <- "2021-08-30"
 Aug_plot <- plot_dist(date, "August")
-date <- "2021-09-15"
+date <- "2021-09-30"
 Sept_plot <- plot_dist(date, "September")
 
 library("cowplot")
